@@ -1,0 +1,8 @@
+_ReSharper.DarkSkySharp/
+DarkSkySharp.sln.DotSettings.user
+DarkSkySharp.suo
+DarkSkySharp/bin/
+DarkSkySharp/obj/
+DarkSkySharpClient/bin/
+DarkSkySharpClient/obj/
+packages/RestSharp.103.1/

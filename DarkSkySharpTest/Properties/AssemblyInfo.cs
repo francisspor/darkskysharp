@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DarkSkySharp")]
-[assembly: AssemblyDescription("A C# implementation of the DarkSky weather prediction API.")]
+[assembly: AssemblyTitle("DarkSkySharpTest")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Francis Spor")]
-[assembly: AssemblyProduct("DarkSkySharp")]
-[assembly: AssemblyCopyright("Copyright © Francis Spor 2012")]
+[assembly: AssemblyCompany("Upstatespors.com")]
+[assembly: AssemblyProduct("DarkSkySharpTest")]
+[assembly: AssemblyCopyright("Copyright © Upstatespors.com 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("67b57ca9-a17e-49ee-9418-c4ff6cee4ed2")]
+[assembly: Guid("1f5a555a-be67-4aac-b7db-15f00d2b9562")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -31,5 +31,6 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("1.0.*")]
+// [assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

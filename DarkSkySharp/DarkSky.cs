@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using DarkSkySharp.Requests;
 using DarkSkySharp.Responses;
 using RestSharp;
@@ -13,6 +14,12 @@ namespace DarkSkySharp
     public DarkSky(string apiKey)
     {
       _apiKey = apiKey;
+
+                  if (string.IsNullOrEmpty(_apiKey) )
+      {
+        throw new Exception("API Key is required");
+      }
+
       _restClient = new RestClient("https://api.darkskyapp.com");
     }
 
@@ -40,7 +47,9 @@ namespace DarkSkySharp
     {
       var restRequest = new RestRequest("v1/precipitation/{apikey}/{location}", Method.GET);
       restRequest.AddUrlSegment("apikey", _apiKey);
-      restRequest.AddUrlSegment("location", string.Join(";", locations));
+
+      var loc = locations[0].ToString();
+      restRequest.AddUrlSegment("location", string.Join(";", loc));
 
       var response = _restClient.Execute<PrecipitationResponse>(restRequest);
       return response.Data;

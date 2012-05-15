@@ -1,12 +1,24 @@
-﻿namespace DarkSkySharp.Requests {
+﻿using System;
+
+namespace DarkSkySharp.Requests {
   public class Location {
-    public double Latitude { get; set; }
-    public double Longitude { get; set; }
+    protected double? Latitude { get; set; }
+    protected double? Longitude { get; set; }
 
-
-    public new string ToString()
+    public Location (double latitude, double longitude)
     {
-      return string.Format("{0},{1}", Latitude, Longitude);
+      Latitude = latitude;
+      Longitude = longitude;
+    }
+
+    public string ToString()
+    {
+      if (Latitude.HasValue && Longitude.HasValue)
+      {
+        return string.Format("{0},{1}", Latitude, Longitude);
+      }
+
+      throw new Exception("Latitude and Longitude are required");
     }
   }
 }

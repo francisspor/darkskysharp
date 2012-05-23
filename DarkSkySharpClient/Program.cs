@@ -10,7 +10,7 @@ namespace DarkSkySharpClient
   {
     private static void Main(string[] args)
     {
-      string apiKey = "8799f5282961deabcefba7bfecd8038b";
+      string apiKey = "23565578962bf71e66ed5cffc731f362";
 
       var darkSky = new DarkSkySharp.DarkSky(apiKey);
 
@@ -22,9 +22,16 @@ namespace DarkSkySharpClient
       Console.WriteLine("It is {0} and {1} in NYC", forecast.IsPrecipitating ? "raining" : "not raining",
                         forecast.CurrentSummary);
 
-      var precipitation = darkSky.Precipitation(new List<LocationAndTime>() {new LocationAndTime(42.7626, -74.1359,DateTime.Now)});
+      try
+      {
+        var precipitation =
+          darkSky.Precipitation(new List<LocationAndTime>() {new LocationAndTime(42.678, -73.748, DateTime.Now)});
       Console.WriteLine("It is {0} in Duanesburg", precipitation.Precipitation.First().Type);
-
+      } catch (Exception ex)
+      {
+        Console.WriteLine(ex.Message);
+        
+      } 
     }
   }
 }

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\DarkSkyException.cs" />
     <Compile Include="Responses\ForecastResponse.cs" />
     <Compile Include="Responses\InterestingResponse.cs" />
     <Compile Include="Requests\LocationAndTime.cs" />

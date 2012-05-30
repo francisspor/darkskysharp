@@ -1,7 +1,0 @@
-C:\Users\francis\Documents\Visual Studio 2010\Projects\DarkSkySharp\DarkSkySharpTest\bin\Debug\DarkSkySharpTest.dll
-C:\Users\francis\Documents\Visual Studio 2010\Projects\DarkSkySharp\DarkSkySharpTest\bin\Debug\DarkSkySharpTest.pdb
-C:\Users\francis\Documents\Visual Studio 2010\Projects\DarkSkySharp\DarkSkySharpTest\bin\Debug\xunit.dll
-C:\Users\francis\Documents\Visual Studio 2010\Projects\DarkSkySharp\DarkSkySharpTest\bin\Debug\xunit.xml
-C:\Users\francis\Documents\Visual Studio 2010\Projects\DarkSkySharp\DarkSkySharpTest\obj\Debug\DarkSkySharpTest.csprojResolveAssemblyReference.cache
-C:\Users\francis\Documents\Visual Studio 2010\Projects\DarkSkySharp\DarkSkySharpTest\obj\Debug\DarkSkySharpTest.dll
-C:\Users\francis\Documents\Visual Studio 2010\Projects\DarkSkySharp\DarkSkySharpTest\obj\Debug\DarkSkySharpTest.pdb

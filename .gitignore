@@ -6,3 +6,6 @@ DarkSkySharp/obj/
 DarkSkySharpClient/bin/
 DarkSkySharpClient/obj/
 packages/RestSharp.103.1/
+DarkSkySharpClient/App.config
+DarkSkySharpTest/bin/
+DarkSkySharpTest/obj/

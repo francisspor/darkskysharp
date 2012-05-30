@@ -33,4 +33,4 @@ Console.WriteLine("There is a {0:P1} chance of {1} {2} at Cinderella's Castle cu
 Copyright
 ---------
 
-Copyright (c) 2012 Francis Spor. See LICENSE for further details.
+Copyright (c) 2012 [Francis Spor](mailto:francis@upstatespors.com). See LICENSE for further details.

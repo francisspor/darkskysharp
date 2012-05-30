@@ -1,7 +1,7 @@
 # DarkSkySharp - A C# implementation of the Dark Sky Api
 
 ## About
-A Node.js module for integrating with the [Dark Sky](http://darkskyapp.com) API. You must acquire an [API key](https://developer.darkskyapp.com/)	 to use it.
+A C# class based on [RestSharp](http://www.restsharp.org) with the [Dark Sky](http://darkskyapp.com) API. You must acquire an [API key](https://developer.darkskyapp.com/)	 to use it.
 
 ## Installation
 The project is hosted on [NuGet](https://nuget.org/packages/DarkSkySharp) 

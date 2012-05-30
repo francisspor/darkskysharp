@@ -30,5 +30,38 @@ namespace DarkSkySharp.Responses
     public float Error { get; set; }
     public string Type { get; set; }
     public long Time { get; set; }
+
+    public string IntensityValue
+    {
+      get
+      {
+        if (Intensity < 2)
+        {
+          return "No";
+        }
+ 
+        if (Intensity < 15)
+        {
+          return "Sporadic";
+        } 
+        
+        if (Intensity < 30)
+        {
+          return "Light";
+        } 
+        
+        if (Intensity < 45)
+        {
+          return "Moderate";
+        }
+
+        if (Intensity < 75)
+        {
+          return "Heavy";
+        }
+
+        return "No";
+      }
+    }
   }
 }

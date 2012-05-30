@@ -27,7 +27,7 @@ namespace DarkSkySharp.Requests
 
     public LocationAndTime(double latitude, double longitude, DateTime time) : base (latitude, longitude)
     {
-      Time = (long) (time.ToUniversalTime() - new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc)).TotalMilliseconds;
+      Time = (long) (time.ToUniversalTime() - new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc)).TotalMilliseconds / 1000;
     }
 
     public override string ToString()

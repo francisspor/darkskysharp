@@ -1,19 +1,12 @@
-DarkSkySharp - A C# implementation of the Dark Sky Api
-==========================================
+# DarkSkySharp - A C# implementation of the Dark Sky Api
 
-About
------
-
+## About
 A Node.js module for integrating with the [Dark Sky](http://darkskyapp.com) API. You must acquire an [API key](https://developer.darkskyapp.com/)	 to use it.
 
-Installation
-------------
-
+## Installation
 The project is hosted on [NuGet](https://nuget.org/packages/DarkSkySharp) 
 
-Usage
------
-
+## Usage
 Create a client and then call one of the exposed methods. See the 
 Dark Sky [API](http://darkskyapp.com/api/) for details.
 
@@ -29,8 +22,14 @@ Console.WriteLine("There is a {0:P1} chance of {1} {2} at Cinderella's Castle cu
 				  precipitation.Precipitation.First().Type);
 ```
 
+## Contributing
 
-Copyright
----------
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Added some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
 
+
+## Copyright
 Copyright (c) 2012 [Francis Spor](mailto:francis@upstatespors.com). See LICENSE for further details.

@@ -9,3 +9,4 @@ packages/RestSharp.103.1/
 DarkSkySharpClient/App.config
 DarkSkySharpTest/bin/
 DarkSkySharpTest/obj/
+DarkSkySharp.*.nupkg
